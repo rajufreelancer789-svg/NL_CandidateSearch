@@ -1,0 +1,49 @@
+{
+  "doc_id": "pi-cmnz7kid90pb401pej8anre9b",
+  "status": "completed",
+  "retrieval_ready": true,
+  "result": [
+    {
+      "title": "CAREER OBJECTIVE",
+      "node_id": "0000",
+      "page_index": 1,
+      "summary": "# CAREER OBJECTIVE\n\nDedicated Computer Science student with strong foundation in Data Structures, Algorithms, and AI-powered applications. Proven track record of winning national hackathons and building innovative solutions. Seeking opportunities to leverage technical skills in full-stack development and machine learning to create impactful software solutions.\n",
+      "text": "# CAREER OBJECTIVE\n\nDedicated Computer Science student with strong foundation in Data Structures, Algorithms, and AI-powered applications. Proven track record of winning national hackathons and building innovative solutions. Seeking opportunities to leverage technical skills in full-stack development and machine learning to create impactful software solutions.\n"
+    },
+    {
+      "title": "EDUCATION",
+      "node_id": "0001",
+      "page_index": 1,
+      "summary": "# EDUCATION\n\nB.Tech in Computer Science &amp; Engineering 2023 - 2027\n\nLendi Institute of Engineering and Technology, Vizianagaram CGPA: 9.00/10\n\nCurrent Year: 3rd Year\n\nRelevant Coursework: Data Structures &amp; Algorithms, Database Management Systems, Operating Systems, Computer Networks, Machine Learning\n",
+      "text": "# EDUCATION\n\nB.Tech in Computer Science &amp; Engineering 2023 - 2027\n\nLendi Institute of Engineering and Technology, Vizianagaram CGPA: 9.00/10\n\nCurrent Year: 3rd Year\n\nRelevant Coursework: Data Structures &amp; Algorithms, Database Management Systems, Operating Systems, Computer Networks, Machine Learning\n"
+    },
+    {
+      "title": "TECHNICAL SKILLS",
+      "node_id": "0002",
+      "page_index": 1,
+      "summary": "# TECHNICAL SKILLS\n\nProgramming Languages: C, C++, Python, Java\n\nWeb Technologies: HTML, CSS, JavaScript\n\nDatabases: SQL, MongoDB\n\nAI/ML: Natural Language Processing, Machine Learning\n\nTools: GitHub, VS Code\n\nCore Competencies: Data Structures &amp; Algorithms, Problem Solving, Object Oriented Programming(OOPS)\n",
+      "text": "# TECHNICAL SKILLS\n\nProgramming Languages: C, C++, Python, Java\n\nWeb Technologies: HTML, CSS, JavaScript\n\nDatabases: SQL, MongoDB\n\nAI/ML: Natural Language Processing, Machine Learning\n\nTools: GitHub, VS Code\n\nCore Competencies: Data Structures &amp; Algorithms, Problem Solving, Object Oriented Programming(OOPS)\n"
+    },
+    {
+      "title": "KEY PROJECTS",
+      "node_id": "0003",
+      "page_index": 1,
+      "summary": "The text describes two key projects: QuantumQuery.AI, an AI-powered system for natural language to SQL queries in retail inventory management, utilizing Python, SQL, NLP, Machine Learning, and FastAPI; and CandidateDigitalPortfolio, a student portfolio management system built with HTML, CSS, JavaScript, JSP/Servlets, Apache Tomcat, and MySQL.",
+      "text": "# KEY PROJECTS\n\nQuantumQuery.AI — AI-Powered Natural Language to SQL Query System\n\n- Developed intelligent system for smart inventory management in retail stores enabling natural language database queries\n- Implemented multi-language query support with predictive query handling for seamless user experience\n- Built real-time inventory insights engine with comprehensive error handling and query optimization\n- Technologies: Python, SQL, Natural Language Processing (NLP), Machine Learning, FastAPI\n\nCandidateDigitalPortfolio — Student Portfolio Management System\n\n- Architected web-based platform for students to maintain structured digital profiles with projects, certifications, and achievements\n- Implemented secure user authentication system with registration and login functionality\n- Developed centralized dashboard for seamless data management and professional profile showcase\n- Created MySQL database schema for efficient storage of student information and documents\n- Technologies: HTML, CSS, JavaScript, JSP/Servlets, Apache Tomcat, MySQL, Eclipse IDE, MySQL Workbench\n"
+    },
+    {
+      "title": "ACHIEVEMENTS &amp; RECOGNITION",
+      "node_id": "0004",
+      "page_index": 1,
+      "summary": "# ACHIEVEMENTS &amp; RECOGNITION\n\n- Winner — Hack2Impact 2025, GVP College of Engineering, Visakhapatnam (National Hackathon)\n- Finalist — Amaravati Quantum Valley Hackathon 2025, Andhra Pradesh (National Finals)\n- Finalist — Smart India Hackathon (SIH) 2025 (National Competition)\n- 2-starCoder — CodeChef (Competitive Programming Platform)\n",
+      "text": "# ACHIEVEMENTS &amp; RECOGNITION\n\n- Winner — Hack2Impact 2025, GVP College of Engineering, Visakhapatnam (National Hackathon)\n- Finalist — Amaravati Quantum Valley Hackathon 2025, Andhra Pradesh (National Finals)\n- Finalist — Smart India Hackathon (SIH) 2025 (National Competition)\n- 2-starCoder — CodeChef (Competitive Programming Platform)\n"
+    },
+    {
+      "title": "DECLARATION",
+      "node_id": "0005",
+      "page_index": 1,
+      "summary": "# DECLARATION\n\nI hereby declare that all the information furnished above is true to the best of my knowledge and belief.\n\nPlace: Vizianagaram\n\nSignature: Eluru Bhanushankar\n\nDate: November 27, 2025\n",
+      "text": "# DECLARATION\n\nI hereby declare that all the information furnished above is true to the best of my knowledge and belief.\n\nPlace: Vizianagaram\n\nSignature: Eluru Bhanushankar\n\nDate: November 27, 2025\n"
+    }
+  ]
+}

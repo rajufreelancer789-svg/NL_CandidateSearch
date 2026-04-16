@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+pymysql
+sqlalchemy
+python-multipart
+pymupdf
+pageindex
+groq
+python-dotenv
+kagglehub
+pandas
+httpx
