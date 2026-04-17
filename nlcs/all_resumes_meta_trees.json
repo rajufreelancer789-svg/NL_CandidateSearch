@@ -1,0 +1,14 @@
+{
+  "meta_trees": [
+    // Add each resume's meta tree here as an object
+    // Example:
+    // {
+    //   "resume_id": "123",
+    //   "meta_tree": { ... }
+    // },
+    // {
+    //   "resume_id": "124",
+    //   "meta_tree": { ... }
+    // }
+  ]
+}

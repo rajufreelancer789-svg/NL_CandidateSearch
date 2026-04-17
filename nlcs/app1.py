@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python3
 """
 Natural Language Candidate Search System
@@ -607,10 +608,10 @@ with st.sidebar:
                 db.close()
 
     st.divider()
-    st.markdown("###  MODE")
+    st.markdown("### 🧭 MODE")
     mode = st.radio(
         "",
-        ["🔍 Database Search", " Single Resume Analysis"],
+        ["🔍 Database Search", "📄 Single Resume Analysis"],
         help="Switch between database-wide search and individual resume analysis",
         label_visibility="collapsed"
     )
@@ -629,21 +630,21 @@ Built for precision, not keyword matching.
 
 
 # ── Main ─────────────────────────────────────────────────────────────────────
-if mode == " Database Search":
+if mode == "🔍 Database Search":
 
     st.markdown('<p class="section-header">Database Search</p>', unsafe_allow_html=True)
     st.markdown('<p class="section-sub">Query across all 74 indexed candidates using natural language.</p>', unsafe_allow_html=True)
 
     input_mode = st.radio(
         "Input type",
-        [" Enter JD Text", " Upload Posting Screenshot"],
+        ["📝 Enter JD Text", "🖼️ Upload Posting Screenshot"],
         horizontal=True,
         help="Paste a job description or upload a screenshot of a job posting."
     )
 
     effective_query = ""
 
-    if input_mode == " Enter JD Text":
+    if input_mode == "📝 Enter JD Text":
         col1, col2 = st.columns([5, 1])
         with col1:
             query = st.text_input(
@@ -669,7 +670,7 @@ if mode == " Database Search":
         if screenshot_file is not None:
             st.image(screenshot_file, caption="Uploaded posting", use_container_width=True)
 
-            if st.button(" Extract JD & Search", key="search_from_screenshot", use_container_width=True):
+            if st.button("🧠 Extract JD & Search", key="search_from_screenshot", use_container_width=True):
                 with st.spinner("Extracting JD from screenshot..."):
                     extract_result = extract_jd_from_image(
                         screenshot_file.getvalue(),
@@ -781,7 +782,7 @@ if mode == " Database Search":
                             st.warning("Resume file path not found for this candidate.")
 
             # ── Reasoning expander ──
-            with st.expander(" Search reasoning"):
+            with st.expander("💭 Search reasoning"):
                 st.markdown(
                     f'<div style="font-size:0.88rem;color:#ABA4C0;line-height:1.7;">{reasoning}</div>',
                     unsafe_allow_html=True
@@ -793,7 +794,7 @@ if mode == " Database Search":
                 h_col, c_col = st.columns([5, 1])
                 with h_col:
                     st.markdown(
-                        f'<p class="section-header" style="font-size:1.1rem;"> {st.session_state.resume_preview_name}</p>',
+                        f'<p class="section-header" style="font-size:1.1rem;">📄 {st.session_state.resume_preview_name}</p>',
                         unsafe_allow_html=True
                     )
                 with c_col:
@@ -853,11 +854,11 @@ else:
                     with col1:
                         recommendation = result.get('recommendation', 'No recommendation')
                         if "Strong Yes" in recommendation:
-                            st.success(f" {recommendation}")
+                            st.success(f"✅ {recommendation}")
                         elif "Yes" in recommendation:
                             st.info(f"✓ {recommendation}")
                         elif "Maybe" in recommendation:
-                            st.warning(f" {recommendation}")
+                            st.warning(f"⚠ {recommendation}")
                         else:
                             st.error(f"✕ {recommendation}")
 
@@ -872,7 +873,7 @@ else:
                         unsafe_allow_html=True
                     )
 
-                    with st.expander(" Detailed reasoning"):
+                    with st.expander("💭 Detailed reasoning"):
                         st.markdown(result.get('reasoning', 'No reasoning available'))
 
                     if sections:
